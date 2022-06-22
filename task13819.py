@@ -13,3 +13,4 @@ for i in ages:
 if tickets >= 3:
     money *= 0.9  # скидка 10%
 print(f"Сумма к оплате {money} рублей")
+

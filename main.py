@@ -1,16 +1,16 @@
-# This is a sample Python script.
+a, b, perks, car = 2, 1, [], {}
+for i in range(1, a+1):
+    for j in range(1, b+1):
+        if car == None:
+            continue
+        else:
+            for k in range(4):
+                perks1 = int(input(f"Введите {i} в {j} = "))
+                perks.append(perks1)
+            car [i,j] = perks
+            print(perks)
+            perks = []
+print(car)
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
